@@ -1,0 +1,29 @@
+{
+  "name": "CANOpenNode for ESP32",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": "",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/zylos146/CANOpenNode-ESP32.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Zylos",
+      "email": "zylos@centralnex.us",
+      "url": ""
+    }
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "flags": [
+        "-I ../../src/canopen"
+    ]
+  }
+}
